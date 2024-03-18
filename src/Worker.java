@@ -48,11 +48,6 @@ public class Worker implements Comparable<Worker> {
                 worker.setTasks(task);
                 System.out.println("Задача '" + task + "' назначена сотруднику " + worker.getSureName());
             }
-            else {
-                System.out.println("Недостаточно прав");
-                break;
-
-            }
         }
 
     }
